@@ -1,7 +1,7 @@
 # Java
 DSA / OOPs / Rounds
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=29)
 <h1 align="left"> Hi there 👋 | <a href="https://github.com/TridentifyIshaan"> Revisit My GitHub Profile</a> </h1>
 
 ## 💫 About The Repository:
