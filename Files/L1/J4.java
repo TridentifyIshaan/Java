@@ -52,6 +52,4 @@ public class J4 { // Class name should be same as the file name
   javac filename.java
   java filename
 
-  javac -d out L1/3.java (It will save the byte code files in the folder named out)
-
 */
