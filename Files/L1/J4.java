@@ -2,7 +2,7 @@
   
   > Date Created: December 16, 2024
   > Author: Ishaan Rastogi
-  > Purpose: To assign primitive & non-primitive datatypes and store them
+  > Purpose: To assign primitive & non-primitive datatypes, store them and print them.
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
   
@@ -29,7 +29,7 @@ public class J4 { // Class name should be same as the file name
         System.out.println("The large integer is " + largeInteger);
         System.out.println("The boolean value is " + check);
         System.out.println("The name is " + name);
-        
+
       }
 }
 
