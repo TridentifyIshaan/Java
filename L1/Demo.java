@@ -27,7 +27,7 @@ public class Demo { // Class name should be same as the file name
 /*
   If you want to change where the byte code files are getting saved then here's the following syntaxes:
   javac -d . Demo.java (It will save the byte code files in the same folder)
-  javac -d .. Demo.java (It will save the byte code files in the parent folder)
-  
+  javac -d .. Demo.java (It will save the byte code files in the previous folder)
+  javac -d out L1/Demo.java (It will save the byte code files in the folder named out)
 
 */
