@@ -12,7 +12,7 @@
   
   NOTES-
   
-  1. Name of the file should be the name of the only public class present in the file.
+  1. Name of the file should be the name of the only public class present in the file. Class name can't start with a number
   2. Java is case sensitive language.
   3. Java is a strongly typed language, so we need to define the type of variable. ( LATER IN THE COURSE)
   4. It's a convention to start the name of the class with a capital letter but not a hard fast rule, it's a good practice to follow the conventions.
@@ -21,7 +21,7 @@
 
 */
 
-public class Main { // Class name should be same as the file name    
+public class J1 { // Class name should be same as the file name    
     public static void main(String[] args) { //first method / function to be called by JVM
         System.out.println("Hello World!"); // It will print Hello World
     }
