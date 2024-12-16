@@ -34,6 +34,7 @@ public class J6 {
       // Java is automatically promoting the byte to int as a*b exceeds the range of byte.
       // The evaluation of expression is done in int, so the final result is in int whether it exceeds the range of byte or not.
 
+      // float + int - double = double as double is the largest data type.
       }
 }
 
