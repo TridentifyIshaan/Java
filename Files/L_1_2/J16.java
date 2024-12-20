@@ -15,12 +15,13 @@ public class J16 {
 
         // Scanning the input
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the operator: ");
-        char op = input.next().trim().charAt(0);
-
+        
         // Taking the input from user till user doesn't press X or x.
         // infinite loop
         while (true) {
+            
+            System.out.print("Enter the operator: ");
+            char op = input.next().trim().charAt(0);
             
             if (op == 'x' || op == 'X') {
                 break;
@@ -49,7 +50,6 @@ public class J16 {
                 }
             } else {
                 System.out.println("Invalid Operator");
-                break;
             }
         }
     }
