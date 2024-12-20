@@ -60,10 +60,19 @@ public class J11 {
         }
         System.out.println("The largest number is: " + max + " by approach 2");
 
-        // Approach 3 - Using inbuilt function
+        // Approach 3
+        max = a;
+        if ( b > a && b > c ) {
+            max = b;
+        } else if ( c > a && c > b ) {
+            max = c;
+        }
+        System.out.println("The largest number is: " + max + " by approach 3");
+
+        // Approach 4 - Using inbuilt function
 
         max = Math.max (a, Math.max(b, c));
-        System.out.println("The largest number is: " + max + " by approach 3");
+        System.out.println("The largest number is: " + max + " by approach 4");
 
     }
 }
