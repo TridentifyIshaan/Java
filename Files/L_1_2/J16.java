@@ -24,6 +24,7 @@ public class J16 {
             char op = input.next().trim().charAt(0);
             
             if (op == 'x' || op == 'X') {
+                System.out.println("User has exited the calculator");
                 break;
             }
 
@@ -34,19 +35,19 @@ public class J16 {
 
                 if (op == '+') {
                     System.out.println("The sum is: " + (a + b));
-                    break;
+                    
                 } else if (op == '-') {
                     System.out.println("The difference is: " + (a - b));
-                    break;
+                    
                 } else if (op == '*') {
                     System.out.println("The product is: " + (a * b));
-                    break;
+                    
                 } else if (op == '/') {
                     System.out.println("The division is: " + (a / b));
-                    break;
+                    
                 } else if (op == '%') {
                     System.out.println("The remainder is: " + (a % b));
-                    break;
+                    
                 }
             } else {
                 System.out.println("Invalid Operator");
