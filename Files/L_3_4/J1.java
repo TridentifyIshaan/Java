@@ -27,6 +27,9 @@
       // code block
   }
 
+    ...
+    Duplicate case is not allowed.
+
 */
 
 import java.util.Scanner;
@@ -88,7 +91,7 @@ public class J1 {
             case "Blackberry":
                 System.out.println("A small black fruit.");
                 break;
-            case "Litchi":
+            case "Lychee":
                 System.out.println("A small soft white fruit from inside with red peel.");
                 break;
             default:
