@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class J4 {
+public class J6 {
     public static void main(String[] args) {
         
         // Scanning the input
@@ -20,7 +20,6 @@ public class J4 {
         switch (day) {
             case 1, 2, 3, 4, 5 -> System.out.println("Weekday");
             case 6, 7 -> System.out.println("Weekend");
-            default -> System.out.println("Invalid Day");
         }
     }
 }

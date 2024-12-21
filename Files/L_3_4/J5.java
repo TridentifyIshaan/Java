@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class J4 {
+public class J5 {
     public static void main(String[] args) {
         
         // Scanning the input
