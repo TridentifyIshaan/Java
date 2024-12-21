@@ -6,6 +6,23 @@
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
   
+  NOTES-
+
+  Switch case syntax:
+
+  switch (expression) {
+    case value1:
+      // code block
+      break;
+
+    case value2:
+      // code block
+      break;
+
+    default:
+      // code block
+  }
+
 */
 
 import java.util.Scanner;
@@ -33,21 +50,27 @@ public class J2 {
                 int a = input.nextInt();
                 int b = input.nextInt();
 
-                if (op == '+') {
+
+                switch (op) {
+                    case '+':
                     System.out.println("The sum is: " + (a + b));
-                    
-                } else if (op == '-') {
+                    break;
+
+                    case '-':
                     System.out.println("The difference is: " + (a - b));
-                    
-                } else if (op == '*') {
+                    break;
+
+                    case '*':
                     System.out.println("The product is: " + (a * b));
-                    
-                } else if (op == '/') {
+                    break;
+
+                    case '/':
                     System.out.println("The division is: " + (a / b));
-                    
-                } else if (op == '%') {
+                    break;
+
+                    case '%':
                     System.out.println("The remainder is: " + (a % b));
-                    
+                    break;
                 }
             } else {
                 System.out.println("Invalid Operator");
