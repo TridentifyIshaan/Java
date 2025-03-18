@@ -1,0 +1,47 @@
+// Q18 a) Create a program in java using to show useful annotations in java.
+
+/*
+    1. Parent Class: This class contains a deprecated method display().
+    2. Child Class: This class extends the Parent class and overrides the display() method. It also contains a method showWarnings() to demonstrate the use of @SuppressWarnings.
+*/
+
+import java.util.ArrayList;
+import java.util.List;
+
+class Parent {
+    // Deprecated method
+    @Deprecated
+    public void display() {
+        System.out.println("This is a deprecated method in the Parent class.");
+    }
+}
+
+class Child extends Parent {
+    // Overriding the display method
+    @Override
+    public void display() {
+        System.out.println("This is the overridden method in the Child class.");
+    }
+
+    // Method to demonstrate @SuppressWarnings
+    @SuppressWarnings("unchecked")
+    public void showWarnings() {
+        // Suppressing unchecked warning
+        List rawList = new ArrayList(); // Raw type usage
+        rawList.add("Hello");
+        rawList.add("World");
+        System.out.println("Raw List: " + rawList);
+    }
+}
+
+public class J35 {
+    public static void main(String[] args) {
+        Child child = new Child();
+        
+        // Calling the overridden method
+        child.display();
+        
+        // Calling the method with suppressed warnings
+        child.showWarnings();
+    }
+}
