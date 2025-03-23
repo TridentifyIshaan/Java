@@ -3,7 +3,8 @@ class MyRunnable implements Runnable {
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Thread: " + i);
+            // Thread.currentThread() returns a reference to the currently executing thread object
+            System.out.println(i + " - " + Thread.currentThread().getName());
             try {
                 // Sleep for 500 milliseconds
                 Thread.sleep(500);
@@ -19,21 +20,16 @@ public class J26 {
         // Creating an instance of MyRunnable
         MyRunnable myRunnable = new MyRunnable();
         
-        // Creating a Thread object and passing MyRunnable instance to it
-        Thread thread = new Thread(myRunnable);
+        // Creating Thread objects and passing MyRunnable instance to them
+        Thread thread1 = new Thread(myRunnable);
+        Thread thread2 = new Thread(myRunnable);
         
-        // Starting the thread
-        thread.start();
+        // Setting thread names
+        thread1.setName("Thread 1");
+        thread2.setName("Thread 2");
         
-        // Main thread work
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Main Thread: " + i);
-            try {
-                // Sleep for 500 milliseconds
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                System.out.println("Main thread interrupted: " + e.getMessage());
-            }
-        }
+        // Starting the threads
+        thread1.start();
+        thread2.start();
     }
 }
