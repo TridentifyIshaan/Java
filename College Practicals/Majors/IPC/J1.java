@@ -5,6 +5,9 @@
     wait() - to pause the current thread
     notify() - to wake current thread
     notifyAll() - to wake all threads
+
+    When you call wait(), notify(), or notifyAll() inside a synchronized method or block of a class, you are actually calling them on the current object (this keyword).
+    Either use this keyword before or don't mention it explicitly, it will be added automatically by the compiler.
 */
 
 package IPC;
