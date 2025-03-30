@@ -12,7 +12,13 @@ DSA / OOPs / Rounds
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
-## 🗂️ Index:
+# 🗂️ Index:
+
+## Files
+
+## OOPs
+
+## College Practicals
 
 ### 01 Basics
 <h4> 1.  </h4>
