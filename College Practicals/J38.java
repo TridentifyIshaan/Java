@@ -1,12 +1,5 @@
 /*
-    Q20 Write a Java program for the following: 
-        i.	    Create a doubly linked list of elements. 
-        ii.	    Delete a given element from the above list. 
-        iii.	Display the contents of the list after deletion
-*/
-
-/*
-    This program demonstrates how to delete a given element from a doubly linked list in Java.
+    This program demonstrates how to delete a given element from a DLL in Java.
 */
 
 import java.util.*;

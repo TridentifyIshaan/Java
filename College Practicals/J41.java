@@ -1,7 +1,5 @@
-// Q21 c) Write a Java program to demonstrate Generic Set.
-
 /*
-    This program demonstrates the use of a generic Set in Java.
+    This program demonstrates the use of a generic Set.
 */
 
 import java.util.*;

@@ -1,7 +1,5 @@
-// Q22 a) Write a Java Program to Demonstrate Binary Search on Vector.
-
 /*
-    This program demonstrates binary search on a Vector in Java.
+    This program demonstrates binary search on a Vector.
 */
 
 import java.util.*;

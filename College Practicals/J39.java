@@ -1,7 +1,5 @@
-// Q21 a) Write a Java program to show the instance of a generic class.
-
 /*
-    This program demonstrates the instance of a generic class in Java.
+    This program demonstrates the instance of a generic class.
 */
 
 // Generic class

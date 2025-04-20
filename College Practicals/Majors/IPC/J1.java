@@ -23,8 +23,8 @@ class customer{
         System.out.println("Withdraw Process");
         if(amount<money){
             // to check if amount is less than money to withdraw
-            try{
-            wait(); // wait is a method of Object class which is used to pause the current thread execution
+            try {
+                wait(); // wait is a method of Object class which is used to pause the current thread execution
             } catch(Exception e) {
                 System.out.println(e);
             }

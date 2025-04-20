@@ -1,7 +1,5 @@
-// Q22 c) Write a Java Program to Rotate Elements of the List
-
 /*
-    This program demonstrates how to rotate elements of a list in Java.
+    This program demonstrates how to rotate elements of a list.
 */
 
 import java.util.*;

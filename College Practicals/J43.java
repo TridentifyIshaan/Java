@@ -1,7 +1,5 @@
-// Q22 b) Write a Java Program to Compare Elements in a Collection.
-
 /*
-    This program demonstrates how to compare elements in a collection in Java.
+    This program demonstrates how to compare elements in a collection.
 */
 
 import java.util.*;

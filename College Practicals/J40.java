@@ -1,7 +1,5 @@
-// Q21 b) Write a Java program to demonstrate Generic Map.
-
 /*
-    This program demonstrates the use of a generic Map in Java.
+    This program demonstrates the use of a generic Map.
 */
 
 import java.util.*;
