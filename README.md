@@ -12,7 +12,30 @@ DSA / OOPs / Rounds
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
-## 🗂️ Index:
+# 🗂️ Repo Structure:
 
-### 01 Basics
+```
+CPP-Prerequisites/  
+│── Files/                   # DSA
+│── OOPs/                    # Just a small example of OOPs
+│── College Practicals/      # Lab Practice
+  │── Majors/                # Practicals used for preparation of end semester exams
+│── README.md                # This file
+│── (More additions will be made frequently 🚀)
+```
+
+# 🗂️ Index:
+
+## Files
+### L_1_2
 <h4> 1.  </h4>
+
+### L_3_4
+<h4> 1.  </h4>
+
+### Projects
+<h4> 1.  </h4>
+
+## OOPs
+
+## College Practicals
