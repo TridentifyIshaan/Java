@@ -2,7 +2,7 @@
 
   > Date Created: March 1, 2025
   > Author: Ishaan Rastogi
-  > Purpose: To return something usic static function
+  > Purpose: To return something using static function
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
   
