@@ -33,9 +33,16 @@ CPP-Prerequisites/
 ### L_3_4
 <h4> 1.  </h4>
 
-### Projects
+## College Practicals
+
+<h4 > <a href = "College Practicals\Majors\errors.rb" > Errors </a> </h4>
+<h4 > <a href = "College Practicals\Majors\Java Supplementary.pdf" > Java Supplementary </a> </h4>
+
+### Lab Work
 <h4> 1.  </h4>
 
-## OOPs
+### Majors
 
-## College Practicals
+<h4> IPC </h4>
+<h4> OOPs </h4>
+<h4> Thread Synchronization </h4>
