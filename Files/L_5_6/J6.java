@@ -27,6 +27,10 @@ public class J6 {
             }
         }
 
+        // Input the element to search for
+        System.out.println("Enter the element to search for: ");
+        int x = sc.nextInt();
+
         // function call to find the element in 2-D array
         find(arr, x);
     }

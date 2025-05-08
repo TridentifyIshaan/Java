@@ -38,12 +38,8 @@ public class J16 {
         int target = sc.nextInt();
 
         // Call the binary search function to find the element in the array
-        int result = searchRange(nums, target);
-        if ( result == -1 ) {
-            System.out.println("Element not found in the array.");
-        } else {
-            System.out.println("Element found at index: " + result);
-        }
+        J16 obj = new J16();
+        obj.searchRange(nums, target);
     }
 
     public int[] searchRange( int nums[], int target ) {
