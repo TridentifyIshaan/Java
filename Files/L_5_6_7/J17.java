@@ -3,6 +3,7 @@
   > Date Created: May 08, 2025
   > Author: Ishaan Rastogi
   > Purpose: Find position of an element in a sorted array of infinite numbers. ( Amazon Question)
+  [ Leetcode link: https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/ ]
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
   

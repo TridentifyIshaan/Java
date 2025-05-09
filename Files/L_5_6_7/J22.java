@@ -2,11 +2,12 @@
   
   > Date Created: May 09, 2025
   > Author: Ishaan Rastogi
-  > Purpose: To find the rotation count in rotat sorted array without duplicates
+  > Purpose: To find the rotation count in rotated sorted array without duplicates
+  [ Leetcode link - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array ]
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
 
-  NOTES - Again, copy paste the code below the main function and paste in leetcode.
+  NOTES - Rotation count = (pivot + 1) times = index of minimum element
   
 */
 
@@ -48,6 +49,7 @@ public class J22 {
         return -1; // no pivot found
     }
 }
+
 /*
   
   For Terminal Code... Ctrl + Shift + `
