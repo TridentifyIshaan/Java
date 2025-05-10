@@ -3,13 +3,13 @@
   > Date Created: May 10, 2025
   > Author: Ishaan Rastogi
   > Purpose: To search an element in a 2D matrix using binary search
+  [ Leetcode link - https://leetcode.com/problems/search-a-2d-matrix-ii/ ]
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
   
 */
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class J15 {
     public static void main(String[] args) {
@@ -31,25 +31,23 @@ public class J15 {
         System.out.println("Enter the element to search: ");
         int target = sc.nextInt();
 
-        int[] result = search(matrix, target);
-        System.out.println("The element is found at index " + Arrays.toString(result));
+        System.out.println(searchMatrix(matrix, target));
     }
 
-    static int[] search(int[][] matrix, int target) {
+    static boolean searchMatrix(int[][] matrix, int target) {
         int row = 0;
         int col = matrix[0].length - 1;
 
         while (row < matrix.length && col >= 0) {
             if (matrix[row][col] == target) {
-                return new int[] { row, col };
-            }
-            if (matrix[row][col] > target) {
-                col--;
-            } else {
+                return true;
+            } else if (matrix[row][col] < target) {
                 row++;
+            } else {
+                col--;
             }
         }
-        return new int[] { -1, -1 }; // Not found
+        return false;
     }
 }
 
