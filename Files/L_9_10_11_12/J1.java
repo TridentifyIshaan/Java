@@ -6,8 +6,7 @@
   
   > Date Created: May 10, 2025
   > Author: Ishaan Rastogi
-  > Purpose: To search an element using binary search in a 1-D array
-  [ Leetocode link: https://leetcode.com/problems/binary-search/ ]
+  > Purpose: To sort an array via bubble sort
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
   
@@ -34,40 +33,35 @@ public class J1 {
         for ( int i = 0; i < n; i++ ) {
             nums[i] = sc.nextInt();
         }
-        
-        // Sort the array in ascending order
-        Arrays.sort(nums); // We will study different sorting algorithms later.
 
-        // Target element to be searched
-        System.out.println("Enter the element to be searched: ");
-        int target = sc.nextInt();
-
-        // Call the binary search function to find the element in the array
-        int result = binarySearch(nums, target);
-        if ( result == -1 ) {
-            System.out.println("Element not found in the array.");
-        } else {
-            System.out.println("Element found at index: " + result);
-        }
+        bubbleSort(nums);
+        System.out.println("The sorted array is " + Arrays.toString(nums));        
     }
 
-    static int binarySearch( int nums[], int target ) {
-        int start = 0;
-        int end = nums.length -1;
-        while ( start <= end ) {
+    static void bubbleSort ( int[] nums ) {
 
-            // mid = ( start + end ) / 2; can lead to overflow because ( start + end ) can exceed the range of integer in java. Hence, we use the below formula. Basically, the same formula but written in a different way.
-            int mid = start + ( end - start )/2;
+        boolean swap;
 
-            if ( target < nums[mid] ) {
-                end = mid - 1; // target is less than mid, so we will search in the left half of the array.
-            } else if ( target > nums[mid] ) {
-                start = mid + 1; // target is greater than mid, so we will search in the right half of the array.
-            } else {
-                return mid; // the answer is found.
+        // run the loop for n-1 times
+        for ( int i = 0; i < nums.length; i++ ) {
+            // Done to check if the array is already sorted
+            swap = false;
+            // run the loop for n-i-1 times
+            for ( int j = 1; j < nums.length - i - 1; j++ ) {
+                // swapping the elements
+                if ( nums[j] < nums [ j - 1] ) {
+                    int temp = nums[j];
+                    nums[j] = nums[j-1];
+                    nums[j-1] = temp;
+                    // Done to check if the array is already sorted
+                    swap = true;
+                }
+            }
+
+            if ( swap == false ) {
+                break;
             }
         }
-        return -1; // if the element is not found in the array, then return -1.
     }
 }
 
