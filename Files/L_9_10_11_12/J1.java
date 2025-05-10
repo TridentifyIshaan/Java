@@ -1,10 +1,10 @@
 /*
-
+  
   This note will be available only on first file of each folder present in folder Java .
   Documentation aka basic notes on how to run the code is already kept in each file for each programme using (/) or //.
   Wherever author needs it to be inserted, he has inserted. So that people using these files can learn easily how to code in Java Language. Author has made these programmes as a reference using courses of Kunal Kushwaha, while himself learning Java Language for the first time.
   
-  > Date Created: May 07, 2025
+  > Date Created: May 10, 2025
   > Author: Ishaan Rastogi
   > Purpose: To search an element using binary search in a 1-D array
   [ Leetocode link: https://leetcode.com/problems/binary-search/ ]
