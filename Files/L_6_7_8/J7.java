@@ -15,7 +15,7 @@
 
 */
 
-public class J17 {
+public class J7 {
     public static void main(String[] args) {
         // Not taking user input for this question.
         int [] arr = { 3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170 };

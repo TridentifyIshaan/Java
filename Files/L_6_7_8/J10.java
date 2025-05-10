@@ -10,7 +10,7 @@
   
 */
 
-public class J20 {
+public class J10 {
     public static void main(String[] args) {
         int[] arr = { 4, 5, 6, 7, 0, 1, 2 };
         System.out.println(search(arr, 3)); // Output: -1

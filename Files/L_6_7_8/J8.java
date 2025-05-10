@@ -15,7 +15,7 @@
   
 */
 
-public class J18 {
+public class J8 {
     public static void main(String[] args) {
         
         // We are given a mountain array, we need to find the peak index in the mountain array.

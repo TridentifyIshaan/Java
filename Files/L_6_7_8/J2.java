@@ -19,7 +19,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
-public class J12 {
+public class J2 {
     public static void main(String[] args) {
         // Input the number of elements in the array
         Scanner sc = new Scanner(System.in);

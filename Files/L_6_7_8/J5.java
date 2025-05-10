@@ -16,7 +16,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class J15 {
+public class J5 {
     public static void main(String[] args) {
         
         // Input the number of elements in the array

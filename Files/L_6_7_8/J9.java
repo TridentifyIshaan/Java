@@ -13,7 +13,7 @@
   
 */
 
-public class J19 {
+public class J9 {
     public static void main(String[] args) {
         // Example 1
         int[] arr1 = {1, 2, 3, 4, 5, 3, 1};

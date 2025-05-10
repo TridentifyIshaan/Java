@@ -13,7 +13,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class J16 {
+public class J6 {
     public static void main(String[] args) {
         
         // Input the number of elements in the array
@@ -38,7 +38,7 @@ public class J16 {
         int target = sc.nextInt();
 
         // Call the binary search function to find the element in the array
-        J16 obj = new J16();
+        J6 obj = new J6();
         obj.searchRange(nums, target);
     }
 

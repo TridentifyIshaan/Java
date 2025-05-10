@@ -12,7 +12,7 @@
 
 */
 
-public class J24 {
+public class J14 {
     public static void main(String[] args) {
         int[] nums = {7,2,5,8,10};
         int k = 2;        
