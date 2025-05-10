@@ -2,7 +2,7 @@
   
   > Date Created: May 10, 2025
   > Author: Ishaan Rastogi
-  > Purpose: To search an element in a 2D matrix using binary search
+  > Purpose: To search an element in a 2D matrix which is sorted rowwise & columnwise using binary search
   [ Leetcode link - https://leetcode.com/problems/search-a-2d-matrix-ii/ ]
   > Operating System: This is only for Windows OS, it may or may not work on other OS
   > Program Status: 100% Working
