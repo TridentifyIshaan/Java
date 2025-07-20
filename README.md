@@ -18,7 +18,6 @@ DSA / OOPs / Rounds
 JAVA
 /── ADA/                # Analysis & Design of Algorithsm / DSA
   |── Class Work/         # Class Questions
-  |── Lab Work/           # Lab Practice
 │── Java College/       # College Work
   |── Lab Work/           # Lab Practice
   │── Majors/             # Used for preparation of end semester exams
