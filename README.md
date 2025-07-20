@@ -14,17 +14,28 @@ DSA / OOPs / Rounds
 
 # 🗂️ Repo Structure:
 
-```
-CPP-Prerequisites/  
-│── Files/                   # DSA
-│── OOPs/                    # Just a small example of OOPs
-│── College Practicals/      # Lab Practice
-  │── Majors/                # Practicals used for preparation of end semester exams
-│── README.md                # This file
-│── (More additions will be made frequently 🚀)
+```sh
+JAVA
+/── ADA/                # Analysis & Design of Algorithsm / DSA
+  |── Class Work/         # Class Questions
+  |── Lab Work/           # Lab Practice
+│── Java College/       # College Work
+  |── Lab Work/           # Lab Practice
+  │── Majors/             # Used for preparation of end semester exams
+│── Files/              # DSA
+  |── L_1_2/
+  |── L_3_4/
+  |── L_5/       
+  |── L_6_7_8/  
+  |── L_9_10_11_12/
+│── README.md           # This file
 ```
 
 # 🗂️ Index:
+
+## ADA
+### Class Work
+### Lab Work
 
 ## Files
 ### L_1_2
@@ -33,11 +44,7 @@ CPP-Prerequisites/
 ### L_3_4
 <h4> 1.  </h4>
 
-## College Practicals
-
-<h4 > <a href = "College Practicals\Majors\errors.rb" > Errors </a> </h4>
-<h4 > <a href = "College Practicals\Majors\Java Supplementary.pdf" > Java Supplementary </a> </h4>
-
+## Java College
 ### Lab Work
 <h4> 1.  </h4>
 
@@ -46,3 +53,8 @@ CPP-Prerequisites/
 <h4> IPC </h4>
 <h4> OOPs </h4>
 <h4> Thread Synchronization </h4>
+<h4> Others <h4>
+<ul>
+  <li> <a href = "College Practicals\Majors\errors.rb" > Errors </a> </li>
+  <li> <a href = "College Practicals\Majors\Java Supplementary.pdf" > Java Supplementary </a> </li>
+</ul>
