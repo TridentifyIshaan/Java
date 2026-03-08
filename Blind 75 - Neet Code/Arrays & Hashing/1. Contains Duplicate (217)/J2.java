@@ -41,8 +41,8 @@ public class J2 {
   
   For Terminal Code... Ctrl + Shift + `
 
-  cd "Blind 75 - Neet Code/Arrays & Hashing/217. Contains Duplicate"
-  javac filename.java
-  java filename
+  cd "Blind 75 - Neet Code/Arrays & Hashing/1. Contains Duplicate (217)"
+  javac J2.java
+  java J2
   
 */

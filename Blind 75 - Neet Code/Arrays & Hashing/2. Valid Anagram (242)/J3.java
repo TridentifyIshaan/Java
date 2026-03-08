@@ -52,7 +52,7 @@ public class J3 {
   
   For Terminal Code... Ctrl + Shift + `
 
-  cd "Blind 75 - Neet Code/Arrays & Hashing/242. Valid Anagram"
+  cd "Blind 75 - Neet Code/Arrays & Hashing/2. Valid Anagram (242)"
   javac J3.java
   java J3
   
